@@ -14,8 +14,8 @@ import javax.xml.bind.annotation.XmlType;
  * @author SG701-03
  */
 
-@XmlRootElement (name = "person" )
-@XmlType (propOrder ={"id", "fullName,"
+@XmlRootElement (name = "person")
+@XmlType (propOrder ={"id", "fullName,", "age"})
 public class Person {
     private int id;
     private String fullName;
